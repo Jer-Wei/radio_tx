@@ -15,6 +15,6 @@ basic.forever(function () {
     basic.pause(100)
     Direction2 = input.compassHeading()
     radio.sendValue("Dir", Direction2)
-    led.toggle(2, 2)
+    led.toggle(4, 4)
     basic.pause(100)
 })
